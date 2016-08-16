@@ -8,9 +8,16 @@ Library           Selenium2Library
 
 *** Variables ***
 ${BROWSER}        Firefox
-${DELAY}          1
+${DELAY}          0
 ${VALID SERACH}     饿了么
 ${Search URL}      http://www.baidu.com
+
+*** Test Cases ***
+Valid Search
+    Open Browser To Search Page
+    Input Searchword  饿了么
+    Submit Credentials
+    wait until page contains  饿了么网上订餐
 
 *** Keywords ***
 Open Browser To Search Page
@@ -26,9 +33,4 @@ Submit Credentials
     Click Button    id=su
 
 
-*** Test Cases ***
-Valid Search
-    Open Browser To Search Page
-    Input Searchword  饿了么
-    Submit Credentials
-    wait until page contains  饿了么网上订餐
+
