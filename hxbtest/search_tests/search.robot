@@ -7,7 +7,7 @@ Documentation     A resource file with reusable keywords and variables.
 Library           Selenium2Library
 
 *** Variables ***
-${BROWSER}        Firefox
+${BROWSER}        chrome
 ${DELAY}          0
 ${VALID SERACH}     饿了么
 ${Search URL}      http://www.baidu.com
