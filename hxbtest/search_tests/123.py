@@ -1,7 +1,6 @@
-import datetime
-import time
-import platform
-import socket
+#!/usr/bin/python
+# -*- coding: UTF-8 -*-
 
-myname = str(socket.getfqdn(socket.gethostname(  )))
-print myname
+a = raw_input("请输入：")
+print len(a.decode('utf-8'))
+print len(a)
