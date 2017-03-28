@@ -1,0 +1,10 @@
+decorator==4.0.9
+docutils==0.12
+pytesseract==0.1.6
+requests==2.10.0
+robotframework==3.0
+robotframework-selenium2library==1.7.4
+ScreenCapture==0.1.0
+selenium==2.53.2
+simplejson==3.8.2
+testrail-library==0.0.6
