@@ -10,3 +10,5 @@ def power(x, n=2):
 
 print power(5, 3)
 print power(9)
+
+
